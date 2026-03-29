@@ -10,14 +10,16 @@ body {
   min-height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: flex-start; /* Keeps the app near the top */
+  /* This and the padding below raise the box up */
+  align-items: flex-start;
   overflow-x: hidden;
 }
 
 .container {
   width: 100%;
-  max-width: 450px; /* Limits the width for a "mobile app" feel on desktop */
-  padding: 20px 15px;
+  max-width: 450px;
+  /* Adjust this number to raise or lower the box further */
+  padding: 60px 15px;
 }
 
 .todo-app {
@@ -91,11 +93,6 @@ ul li {
   color: #ddd;
   font-size: 16px;
   transition: 0.2s;
-  border-radius: 8px;
-}
-
-ul li:hover {
-  background: rgba(255, 255, 255, 0.03);
 }
 
 ul li::before {
@@ -143,7 +140,6 @@ ul li span:hover {
   color: #ff5945;
 }
 
-/* Animations */
 .shake {
   animation: shake 0.2s ease-in-out 0s 2;
 }
