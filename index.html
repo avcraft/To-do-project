@@ -2,11 +2,14 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
     <title>Warrior To-Do</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="manifest" href="manifest.json" />
-    <meta name="theme-color" content="#ff5945" />
+    <meta name="theme-color" content="#1a1a1a" />
     <link rel="apple-touch-icon" href="images/icon-192.png" />
   </head>
   <body>
@@ -18,6 +21,7 @@
             type="text"
             id="input-box"
             placeholder="Prepare for battle..."
+            autocomplete="off"
           />
           <button onclick="addTask()">Add</button>
         </div>

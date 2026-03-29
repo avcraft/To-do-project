@@ -44,7 +44,6 @@ function showTask() {
 }
 showTask();
 
-// Register Service Worker for PWA
 if ("serviceWorker" in navigator) {
   navigator.serviceWorker.register("sw.js");
 }

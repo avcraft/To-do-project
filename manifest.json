@@ -3,8 +3,9 @@
   "short_name": "Warrior",
   "start_url": "./index.html",
   "display": "standalone",
+  "display_override": ["minimal-ui", "window-controls-overlay"],
   "background_color": "#0f0f1a",
-  "theme_color": "#ff5945",
+  "theme_color": "#1a1a1a",
   "icons": [
     {
       "src": "images/icon-192.png",
