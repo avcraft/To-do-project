@@ -10,15 +10,14 @@ body {
   min-height: 100vh;
   display: flex;
   justify-content: center;
-  /* Aligns content to the top */
-  align-items: flex-start;
+  align-items: flex-start; /* Keeps box raised */
   overflow-x: hidden;
 }
 
 .container {
   width: 100%;
-  max-width: 400px; /* Limits max width, but allows shrinking */
-  padding: 40px 15px; /* 40px top padding raises the box */
+  max-width: 500px;
+  padding: 30px 15px; /* Higher padding moves the card up */
 }
 
 .todo-app {
