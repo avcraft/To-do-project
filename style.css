@@ -6,7 +6,7 @@
 }
 
 body {
-  background: #0f0f1a;
+  background: #18182a;
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -16,8 +16,8 @@ body {
 
 .container {
   width: 100%;
-  max-width: 500px;
-  padding: 30px 15px; /* Higher padding moves the card up */
+  max-width: 550px;
+  padding: 20px 15px; /* Higher padding moves the card up */
 }
 
 .todo-app {
